@@ -1,0 +1,200 @@
+
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+.newflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+    /*background-color: skyblue;*/
+}
+.new{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.new-hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.new-hd h5{
+    float: left;
+    font-size: 14px;
+}
+.new-hd .more{
+    float: right;
+}
+.new-hd .more::after{
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.new-bd{
+    padding: 5px 15px 0;
+}
+.new-bd ul li{
+    height: 24px;
+    line-height: 24px;
+}
+.lifeservice{
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    /*background-color: pink;*/
+    margin-top: 12px;
+
+}
+.service_ico_huafei{
+    background:url("../images/icons.png") no-repeat -17px -14px;
+}
+.service_ico_feiji{
+    background:url("../images/icons.png") no-repeat -79px -14px;
+}
+.service_ico_dianying{
+    background:url("../images/icons.png") no-repeat -140px -14px;
+}
+.service_ico_youxi{
+    background:url("../images/icons.png") no-repeat -205px -14px;
+}
+.service_ico_caipiao{
+    background:url("../images/icons.png") no-repeat -17px -85px;
+}
+.service_ico_jiayou{
+    background:url("../images/icons.png") no-repeat -78px -85px;
+}
+.service_ico_chongdian{
+    background:url("../images/icons.png") no-repeat -140px -85px;
+}
+.service_ico_ditie{
+    background:url("../images/icons.png") no-repeat -205px -85px;
+}
+.service_ico_zhifu{
+    background:url("../images/icons.png") no-repeat -17px -158px;
+}
+.service_ico_money{
+    background:url("../images/icons.png") no-repeat -79px -158px;
+}
+.service_ico_kabao{
+    background:url("../images/icons.png") no-repeat -140px -155px;
+}
+.service_ico_wendang{
+    background:url("../images/icons.png") no-repeat -205px -158px;
+}
+.bargain{
+    margin-top: 5px;
+}
+.jx{
+    border-bottom: 2px solid #b1191a;
+    padding: 5px;
+}
+
+/* 家用电梯模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd  ul li {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+    font-size: 5px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+}
+.box_bd2 {
+    height: 475px;
+}
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210  ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210  ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.hot_mid{
+    float: left;
+    height:170px;
+    padding:0px;
+}
+.hot_goods{
+    float: left;
+    padding: 2px 5px 2px 5px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.hot_goods p{
+    text-align: center;
+}
+.hot_left {
+    width: 210px;
+    height: 300px;
+    background-color: #f9f9f9;
+    text-align: center;
+}

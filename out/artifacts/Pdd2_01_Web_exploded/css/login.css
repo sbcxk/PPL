@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 82px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    margin-top: 15px;
+}
+.login-main {
+    height: 470px;
+    background-color: #7F00FF;
+}
+.login-main .w {
+    position: relative;
+    height: 470px;
+    background: url(../images/loginbg.png) no-repeat ;
+}
+.loginfrom {
+    position: absolute;
+    left: 700px;
+    top: 40px;
+    width: 340px;
+    height: 380px;
+    background-color: #fff;
+    padding: 20px 38px 0 38px;
+}
+.a-from {
+    height: 20px;
+}
+.from1 {
+    font-size: 18px;
+    color: #656565;
+    padding-right: 63px;
+}
+.spa {
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
+}
+.from2 {
+    font-size: 18px;
+    color: #C71523;
+}
+.anno {
+    width: 295px;
+    height: 24px;
+    padding-left: 5px;
+    line-height: 24px;
+    border: 1px solid #F6EFCE;
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #656565;
+    background-color: #FFFDED;
+}
+.loginfrom input {
+    width: 260px;
+    height: 34px;
+    border: 1px solid #CECDCD;
+    padding-left: 40px;
+    margin-bottom: 18px;
+}
+.logininput {
+    position: relative;
+}
+.form-inline input{
+    margin-bottom: 18px;
+}
+.logininput i {
+    position: absolute;
+    width: 37px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #CECDCD;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+/*.logininput .useri {
+    top: 1px;
+    left: 1px;
+
+}*/
+.logininput .useri::before {
+    font-family: 'icomoon';
+    content: '\e942';
+
+}
+.logininput .passwordi {
+    top: 53px;
+
+}
+.logininput .passwordi::before {
+    font-family: 'icomoon';
+    content: '\e959';
+}
+.check {
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+}
+.check input {
+    float: left;
+    width: 14px;
+    height: 14px;
+}
+.check span {
+    float: left;
+    color: #CECDCD;
+}
+.check a {
+    float: right;
+    color: #CECDCD;
+}
+.check a:hover {
+    color: red;
+}
+.loginbtn {
+    /*display: block;*/
+    width: 260px;
+    height: 42px;
+    background-color: #C71523;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+.qitadenglu{
+    width: 60%;
+
+    margin-top: -5px;
+    margin-left: -15px;
+
+}
+.link span {
+    float: right;
+    font-size: 14px;
+    color: #1373AF;
+}
